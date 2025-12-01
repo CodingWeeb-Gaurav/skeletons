@@ -1,0 +1,15 @@
+# add .env and node modules to .gitignore
+.env
+node_modules/
+
+# package-lock.json
+package-lock.json
+
+# ignore log files
+*.log
+
+# ignore OS generated files
+.DS_Store
+Thumbs.db
+# ignore excel files
+*.xlsx

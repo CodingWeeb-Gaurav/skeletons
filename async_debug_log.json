@@ -1,0 +1,212 @@
+[
+  {
+    "time": 1764573117.822,
+    "event": "send",
+    "user_id": "a1",
+    "correlation_id": "3c1ae193",
+    "payload": {
+      "model": "gpt-4.1-mini",
+      "input": "Where is the Taj Mahal?"
+    },
+    "response_id": null,
+    "text": "Where is the Taj Mahal?"
+  },
+  {
+    "time": 1764573117.823,
+    "event": "send",
+    "user_id": "b2",
+    "correlation_id": "f9285ab2",
+    "payload": {
+      "model": "gpt-4.1-mini",
+      "input": "Write a 100 word story."
+    },
+    "response_id": null,
+    "text": "Write a 100 word story."
+  },
+  {
+    "time": 1764573117.823,
+    "event": "send",
+    "user_id": "c3",
+    "correlation_id": "3f1d3116",
+    "payload": {
+      "model": "gpt-4.1-mini",
+      "input": "Hello"
+    },
+    "response_id": null,
+    "text": "Hello"
+  },
+  {
+    "time": 1764573120.518,
+    "event": "receive",
+    "user_id": "c3",
+    "correlation_id": "3f1d3116",
+    "payload": "Hello! How can I assist you today?",
+    "response_id": "resp_07e0b12a9881b46700692d3fbe810c819da7be7befce66c6d6",
+    "internal_request_id": null,
+    "text": "Hello! How can I assist you today?"
+  },
+  {
+    "time": 1764573120.519,
+    "event": "send",
+    "user_id": "c3",
+    "correlation_id": "0152cbdd",
+    "previous_context_id": "resp_07e0b12a9881b46700692d3fbe810c819da7be7befce66c6d6",
+    "payload": {
+      "model": "gpt-4.1-mini",
+      "input": "How does a diesel engine work? (500 words)",
+      "previous_response_id": "resp_07e0b12a9881b46700692d3fbe810c819da7be7befce66c6d6"
+    },
+    "response_id": null,
+    "text": "How does a diesel engine work? (500 words)"
+  },
+  {
+    "time": 1764573120.522,
+    "event": "receive",
+    "user_id": "b2",
+    "correlation_id": "f9285ab2",
+    "payload": "In the quiet village of Bramblewood, Emma discovered a forgotten key buried beneath the ancient oak. Intrigued, she followed the map etched on the old parchment she found alongside it. The map led her",
+    "response_id": "resp_037c2382a58f6ed000692d3fbe4338819d84542b4cccf0f564",
+    "internal_request_id": null,
+    "text": "In the quiet village of Bramblewood, Emma discovered a forgotten key buried beneath the ancient oak. Intrigued, she followed the map etched on the old parchment she found alongside it. The map led her"
+  },
+  {
+    "time": 1764573120.522,
+    "event": "send",
+    "user_id": "b2",
+    "correlation_id": "58029f69",
+    "previous_context_id": "resp_037c2382a58f6ed000692d3fbe4338819d84542b4cccf0f564",
+    "payload": {
+      "model": "gpt-4.1-mini",
+      "input": "Convert it into a 100 word poem.",
+      "previous_response_id": "resp_037c2382a58f6ed000692d3fbe4338819d84542b4cccf0f564"
+    },
+    "response_id": null,
+    "text": "Convert it into a 100 word poem."
+  },
+  {
+    "time": 1764573120.694,
+    "event": "receive",
+    "user_id": "a1",
+    "correlation_id": "3c1ae193",
+    "payload": "The Taj Mahal is located in Agra, Uttar Pradesh, India.",
+    "response_id": "resp_040084603d0045e300692d3fbeaea48192bac00750e1120f7b",
+    "internal_request_id": null,
+    "text": "The Taj Mahal is located in Agra, Uttar Pradesh, India."
+  },
+  {
+    "time": 1764573120.694,
+    "event": "send",
+    "user_id": "a1",
+    "correlation_id": "df66faee",
+    "previous_context_id": "resp_040084603d0045e300692d3fbeaea48192bac00750e1120f7b",
+    "payload": {
+      "model": "gpt-4.1-mini",
+      "input": "Where is the Eiffel Tower?",
+      "previous_response_id": "resp_040084603d0045e300692d3fbeaea48192bac00750e1120f7b"
+    },
+    "response_id": null,
+    "text": "Where is the Eiffel Tower?"
+  },
+  {
+    "time": 1764573123.462,
+    "event": "receive",
+    "user_id": "b2",
+    "correlation_id": "58029f69",
+    "payload": "In Bramblewood, where whispers dwell,  \nEmma found a secret well—  \nA key beneath the oak tree’s shade,  \nA map beside it, finely laid.  \n\nShe climbed the tower, old and worn,  \nWhere silent bells had",
+    "response_id": "resp_037c2382a58f6ed000692d3fc0e988819db8e9c28469697fec",
+    "internal_request_id": null,
+    "text": "In Bramblewood, where whispers dwell,  \nEmma found a secret well—  \nA key beneath the oak tree’s shade,  \nA map beside it, finely laid.  \n\nShe climbed the tower, old and worn,  \nWhere silent bells had"
+  },
+  {
+    "time": 1764573123.462,
+    "event": "send",
+    "user_id": "b2",
+    "correlation_id": "d26fe02d",
+    "previous_context_id": "resp_037c2382a58f6ed000692d3fc0e988819db8e9c28469697fec",
+    "payload": {
+      "model": "gpt-4.1-mini",
+      "input": "Write the next part (100 words).",
+      "previous_response_id": "resp_037c2382a58f6ed000692d3fc0e988819db8e9c28469697fec"
+    },
+    "response_id": null,
+    "text": "Write the next part (100 words)."
+  },
+  {
+    "time": 1764573124.278,
+    "event": "receive",
+    "user_id": "a1",
+    "correlation_id": "df66faee",
+    "payload": "The Eiffel Tower is located in Paris, France.",
+    "response_id": "resp_040084603d0045e300692d3fc1d8c08192bc157c865fe4283f",
+    "internal_request_id": null,
+    "text": "The Eiffel Tower is located in Paris, France."
+  },
+  {
+    "time": 1764573124.278,
+    "event": "send",
+    "user_id": "a1",
+    "correlation_id": "b8612d64",
+    "previous_context_id": "resp_040084603d0045e300692d3fc1d8c08192bc157c865fe4283f",
+    "payload": {
+      "model": "gpt-4.1-mini",
+      "input": "Confirm both locations again.",
+      "previous_response_id": "resp_040084603d0045e300692d3fc1d8c08192bc157c865fe4283f"
+    },
+    "response_id": null,
+    "text": "Confirm both locations again."
+  },
+  {
+    "time": 1764573127.144,
+    "event": "receive",
+    "user_id": "b2",
+    "correlation_id": "d26fe02d",
+    "payload": "As days turned into seasons new,  \nEmma’s tales like blossoms grew.  \nChildren gathered round the fire’s glow,  \nEager for the past’s soft flow.  \n\nVoices long silent found their sound,  \nIn every sto",
+    "response_id": "resp_037c2382a58f6ed000692d3fc3d700819dbe7ba7172d6acd5e",
+    "internal_request_id": null,
+    "text": "As days turned into seasons new,  \nEmma’s tales like blossoms grew.  \nChildren gathered round the fire’s glow,  \nEager for the past’s soft flow.  \n\nVoices long silent found their sound,  \nIn every sto"
+  },
+  {
+    "time": 1764573127.186,
+    "event": "receive",
+    "user_id": "a1",
+    "correlation_id": "b8612d64",
+    "payload": "Certainly!\n\n- The Taj Mahal is located in Agra, Uttar Pradesh, India.\n- The Eiffel Tower is located in Paris, France.",
+    "response_id": "resp_040084603d0045e300692d3fc4b100819284220bb99a60965f",
+    "internal_request_id": null,
+    "text": "Certainly!\n\n- The Taj Mahal is located in Agra, Uttar Pradesh, India.\n- The Eiffel Tower is located in Paris, France."
+  },
+  {
+    "time": 1764573131.696,
+    "event": "receive",
+    "user_id": "c3",
+    "correlation_id": "0152cbdd",
+    "payload": "A diesel engine is an internal combustion engine that operates using the compression ignition principle, where fuel is ignited by the heat generated from compressing air in the cylinder rather than by",
+    "response_id": "resp_07e0b12a9881b46700692d3fc0e51c819d8714423e0df7061d",
+    "internal_request_id": null,
+    "text": "A diesel engine is an internal combustion engine that operates using the compression ignition principle, where fuel is ignited by the heat generated from compressing air in the cylinder rather than by"
+  },
+  {
+    "time": 1764573131.696,
+    "event": "send",
+    "user_id": "c3",
+    "correlation_id": "880d3902",
+    "previous_context_id": "resp_07e0b12a9881b46700692d3fc0e51c819d8714423e0df7061d",
+    "payload": {
+      "model": "gpt-4.1-mini",
+      "input": "Summarize in 200 words.",
+      "previous_response_id": "resp_07e0b12a9881b46700692d3fc0e51c819d8714423e0df7061d"
+    },
+    "response_id": null,
+    "text": "Summarize in 200 words."
+  },
+  {
+    "time": 1764573136.141,
+    "event": "receive",
+    "user_id": "c3",
+    "correlation_id": "880d3902",
+    "payload": "A diesel engine is an internal combustion engine that operates using compression ignition, where fuel ignites due to the heat generated from compressed air rather than a spark. It works on a four-stro",
+    "response_id": "resp_07e0b12a9881b46700692d3fcc1ba4819d95528fd4c9d96812",
+    "internal_request_id": null,
+    "text": "A diesel engine is an internal combustion engine that operates using compression ignition, where fuel ignites due to the heat generated from compressed air rather than a spark. It works on a four-stro"
+  }
+]
