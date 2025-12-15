@@ -106,6 +106,36 @@ async def main():
             "Hello",
             "How does a diesel engine work? (500 words)",
             "Summarize in 200 words."
+        ],
+        "d4": [
+            "Explain quantum computing in simple terms.",
+            "Based on that explanation, what are its practical applications?",
+            "Compare quantum computing with classical computing in a table format.",
+            "What are the biggest challenges in quantum computing today?"
+        ],
+        "e5": [
+            "Describe the water cycle with a detailed explanation.",
+            "Now explain how climate change affects the water cycle.",
+            "Based on your previous answers, what mitigation strategies would you recommend?",
+            "Create a short educational summary for middle school students."
+        ],
+        "f6": [
+            "What are the main principles of agile software development?",
+            "Explain Scrum methodology in detail.",
+            "Compare this with similar methodologies.",
+            "What are common pitfalls in agile transformations and how to avoid them?"
+        ],
+        "g7": [
+            "Write a 150-word introduction about the history of artificial intelligence.",
+            "Now discuss the ethical implications of AI development.",
+            "What safeguards should be implemented for responsible AI?",
+            "Summarize our conversation in 400 words."
+        ],
+        "h8": [
+            "Explain the process of photosynthesis step by step.",
+            "How does photosynthesis differ in C3, C4, and CAM plants?",
+            "Can you explain this in simpler terms for a 10-year-old?",
+            "Design an experiment to measure photosynthesis efficiency in different light conditions."
         ]
     }
 
